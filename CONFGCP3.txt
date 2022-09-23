@@ -1,0 +1,22 @@
+/* *************************************************************** */
+/*                                                                 */
+/* System Configure file for CPC3 with the current base values     */
+/*                                                                 */
+/* ******* NOTES **********                                        */
+/* ***** DO NOT                                                    */
+/*        change the first word of each line as they are used as   */
+/*        key variables by applications for searching               */
+/*                                                                 */
+/* *************************************************************** */
+ 
+/* Names of CPC and its associated LPARs */
+ 
+CPCNAME = IBM390PS.CPC3
+ 
+/*The IMG. stem must be in numeric order following this IMGCOUNT line*/
+IMGCOUNT = 5  
+IMG.1 = IMGD
+IMG.2 = IMGF
+IMG.3 = IMGI
+IMG.4 = IMGJ
+IMG.5 = IMGM

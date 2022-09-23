@@ -1,0 +1,22 @@
+/* *************************************************************** */
+/*                                                                 */
+/* System Configure file for CPC1 with the current base values     */
+/*                                                                 */
+/* ******* NOTES **********                                        */
+/* ***** DO NOT                                                    */
+/*        change the first word of each line as they are used as   */
+/*        key variables by applications for searching               */
+/*                                                                 */
+/* *************************************************************** */
+ 
+/* Names of CPC and its associated LPARs */
+ 
+CPCNAME  = IBM390PS.CPC1
+ 
+/*The IMG. stem must be in numeric order following this IMGCOUNT line*/
+IMGCOUNT = 5 
+IMG.1 = IMGB
+IMG.2 = IMGC
+IMG.3 = IMGG
+IMG.4 = IMGK
+IMG.5 = IMGO
